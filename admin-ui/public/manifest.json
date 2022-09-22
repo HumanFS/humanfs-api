@@ -1,6 +1,6 @@
 {
-  "short_name": "Sample app",
-  "name": "Sample app",
+  "short_name": "Human File System",
+  "name": "Human File System",
   "icons": [
     {
       "src": "favicon.ico",

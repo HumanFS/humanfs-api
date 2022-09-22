@@ -3,12 +3,12 @@ import { DocumentBuilder } from "@nestjs/swagger";
 export const swaggerPath = "api";
 
 export const swaggerDocumentOptions = new DocumentBuilder()
-  .setTitle("Sample app")
+  .setTitle("Human File System")
   .setDescription(
-    'Sample application for e-commerce\n\n## Congratulations! Your application is ready.\n  \nPlease note that all endpoints are secured with JWT Bearer authentication.\nBy default, your app comes with one user with the username "admin" and password "admin".\nLearn more in [our docs](https://docs.amplication.com)'
+    'Don’t you hate how you and everyone you’ve ever loved are going to suffer and die of horrible diseases? If so, then join us!\n\nWe’re working to create 7 billion digital twins that can exponentially accelerate the pace of clinical discovery through digital clinical trials.\n\n## Congratulations! Your service resource is ready.\n  \nPlease note that all endpoints are secured with HTTP Basic authentication.\nBy default, your service resource comes with one user with the username "admin" and password "admin".\nLearn more in [our docs](https://docs.amplication.com)'
   )
-  .setVersion("oxeyhrpn")
-  .addBearerAuth()
+  .setVersion("pyonupeu")
+  .addBasicAuth()
   .build();
 
 export const swaggerSetupOptions = {
@@ -17,5 +17,5 @@ export const swaggerSetupOptions = {
   },
   customCssUrl: "../swagger/swagger.css",
   customfavIcon: "../swagger/favicon.png",
-  customSiteTitle: "Sample app",
+  customSiteTitle: "Human File System",
 };
